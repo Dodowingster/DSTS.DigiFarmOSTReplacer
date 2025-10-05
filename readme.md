@@ -2,7 +2,7 @@
 
 ***
 
-![flavor](img\World Championship the GOAT.png)
+![alt text](img/World%20Championship%20the%20GOAT.png)
 
 This is a **Work In Progress** music mod that aims to enhance the combat experience by replacing and randomly cycling through a selection of iconic battle themes from the **Digimon Videogame franchise**.
 
@@ -51,7 +51,7 @@ It replaces and randomizes the following tracks:
 
 **Installation**
 
-
+![alt text](img/Installation.gif)
 
 1.  Download the zip file and drag and drop to Reloaded II
 2.  Enable the mod by clicking the minus(-) icon into plus(+)
