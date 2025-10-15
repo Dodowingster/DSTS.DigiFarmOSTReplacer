@@ -1,0 +1,34 @@
+constants:
+    RYO_API: Ryo.Interfaces.IRyoApi
+    FS_API: RemixToolkit.Interfaces.IFileSystem
+
+settings:
+    - id: EnableDigiFarmOSTDWCHuntScreen
+      type: toggle
+      default: true
+      name: Digimon World Championship Hunt Screen OST
+      category: Music
+      description: Enable replacement of DigiFarm music with custom OST into Digimon World Championship Hunt Screen OST.
+
+    - id: BGMVolume
+      type: number
+      default: 2
+      name: Hunt Screen Volume
+      category: Music
+      description: Volume for Hunt Screen OST (Range from 0 to 10, where 10 is full volume).
+
+actions:
+    - using: '{FS_API}'
+      if: EnableDigiFarmOSTDWCHuntScreen
+      run: WriteFile
+      with:
+        - '{ModDir}/DWCHuntScreen/bgm/bgm501.acb/bgm501.yaml'
+        - |
+          volume: 0.{BGMVolume}
+
+    - using: '{RYO_API}'
+      if: EnableDigiFarmOSTDWCHuntScreen
+      run: AddAudioPath
+      with:
+        - '{ModDir}/DWCHuntScreen/'
+        - null

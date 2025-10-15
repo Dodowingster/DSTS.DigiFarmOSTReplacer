@@ -4,15 +4,15 @@
   "ModAuthor": "Dodowingster",
   "ModVersion": "1.0.0",
   "ModDescription": "Replaces the DIGITAL PLANET Track for the Digifarm into Digimon World Championship\u0027s Hunt Screen",
-  "ModDll": "",
+  "ModDll": "RemixToolkit.HostMod.dll",
   "ModIcon": "World Championship the GOAT.png",
   "ModR2RManagedDll32": "",
   "ModR2RManagedDll64": "",
   "ModNativeDll32": "",
   "ModNativeDll64": "",
   "Tags": [],
-  "CanUnload": null,
-  "HasExports": null,
+  "CanUnload": false,
+  "HasExports": false,
   "IsLibrary": false,
   "ReleaseMetadataFileName": "DSTS.DigiFarmOSTReplacer.ReleaseMetadata.json",
   "PluginData": {
@@ -35,6 +35,15 @@
             "AssetFileName": "Mod.zip"
           },
           "ReleaseMetadataName": "DSTS.RyoFramework.ReleaseMetadata.json"
+        },
+        "RemixToolkit.Reloaded": {
+          "Config": {
+            "UserName": "RyoTune",
+            "RepositoryName": "RemixToolkit",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "RemixToolkit.Reloaded.ReleaseMetadata.json"
         },
         "Ryo.Reloaded": {
           "Config": {
@@ -82,17 +91,24 @@
           "ReleaseMetadataName": "SharedScans.Reloaded.ReleaseMetadata.json"
         }
       }
+    },
+    "GameBanana": {
+      "ItemType": "Sound",
+      "ItemId": 82536
     }
   },
   "IsUniversalMod": false,
   "ModDependencies": [
     "DSTS.ModLoader",
     "DSTS.RyoFramework",
+    "RemixToolkit.Reloaded",
     "Ryo.Reloaded"
   ],
   "OptionalDependencies": [],
   "SupportedAppId": [
     "digimon story time stranger.exe"
   ],
-  "ProjectUrl": ""
+  "ProjectUrl": "https://gamebanana.com/sounds/82536",
+  "CreatorUrl": "https://gamebanana.com/members/4857381",
+  "IsSeparator": false
 }
