@@ -15,7 +15,7 @@ settings:
       default: 2
       name: Hunt Screen Volume
       category: Digimon World Championship DigiFarm OST
-      description: Volume for Hunt Screen OST (Range from 0 to 10, where 10 is full volume).
+      description: Volume for Hunt Screen OST (Range from 1 to 9, where 9 is full volume).
 
 actions:
     - using: '{FS_API}'
