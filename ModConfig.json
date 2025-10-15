@@ -36,15 +36,6 @@
           },
           "ReleaseMetadataName": "DSTS.RyoFramework.ReleaseMetadata.json"
         },
-        "RemixToolkit.Reloaded": {
-          "Config": {
-            "UserName": "RyoTune",
-            "RepositoryName": "RemixToolkit",
-            "UseReleaseTag": false,
-            "AssetFileName": "Mod.zip"
-          },
-          "ReleaseMetadataName": "RemixToolkit.Reloaded.ReleaseMetadata.json"
-        },
         "Ryo.Reloaded": {
           "Config": {
             "UserName": "RyoTune",
